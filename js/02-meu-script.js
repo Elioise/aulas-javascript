@@ -27,6 +27,12 @@ console.log(`Eu tou estudando UC ${uc} e Eu estou aprendendo ${competencia}` );
 console.log('gosto "muito" de paçoca!');
 
 
+let frase = "Estamos estudando JavaScript na escola Senac";
+frase += "Penha, no curso de Desenvolvedor Full-Stack";
+
+frase +="no ano de "+ano;
+
+
 
 
 
