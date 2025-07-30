@@ -80,9 +80,45 @@ console.log(soma, subtracao, multiplicacao, divisao);
 let a = 100;
 let b = 20;
 let media = (a + b) / 2;
-
-
 console.log(media);
+
+
+/*Saida de dados personalizado
+Frase para exemplo:
+Olá! Me chamo Chapolin Colorado e não vejo a hora de acabar o ano de 2025.  */
+
+// Forma 1 : Concatenação ( tradicional, antiga)
+// Forma 2 : Template Literal/STRING (Forma mais moderna de usa)
+
+
+console.log("Olá! Me chamo "+aluno+" e não vejo a hora de acabar o ano de "+ano+" .");
+
+let frase = "Estamos estudando JavaScript na escola Senac";
+// frase +=   se pou ekri res fraz la sou lot ligne nan
+frase += "Penha, no curso de Desenvolvedor Full-Stack";
+frase +="no ano de "+ano;
+
+//No exemplo acima usamos += (significa concatena e atribui)
+
+console.log(frase);
+
+//Forma 2: Template Literal/STRING(moderna)
+
+console.log(`Olá! Me chamo ${aluno} e não vejo a hora de acabar o ano de ${ano}.`);
+
+//As duas formas abaixo estão corretas!
+console.log("soma:  "+soma);
+console.log(`soma:  ${soma}`);
+
+console.log(typeof soma);
+console.log(typeof aluno);
+
+
+
+
+
+
+
 
 
 
