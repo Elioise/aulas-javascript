@@ -51,6 +51,27 @@ console.log(`Gosto muito dos artistas: ${coisasquegosto[1]}, ${coisasquegosto[4]
 
 
 
+//Array com MATRIZ DE 2 DIMENSÕES
+const tecnologias = [
+    ["HTML", "CSS", "JAVASCRIPT"],
+    ["Figma", "Photoshop"],
+    ["PHP", "NODE.JS", "SQL", "EXPRESS"]
+
+];
+
+
+//console.log(tecnologias);
+console.log(tecnologias[0][2]); // javascript
+console.log(tecnologias[1][0]); // figma
+console.log(tecnologias[2][3]); //express
+
+
+
+
+
+
+
+
 
 
 
