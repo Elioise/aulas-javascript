@@ -37,7 +37,7 @@ console.log(livro.titulo);
 
 console.log(`Meu livro preferido é ${livro.volumes[1]}`);
 
-
+// meu exemplo
 const cor = {
     maca: "vermelho",
     limao: "verde",
@@ -48,6 +48,42 @@ console.log(cor.limão);
 console.log(`Precisa do limão ${cor.limao} para fazer suco de limão`);
 
 console.log("A cor de maçã é "+cor.maca+"" );
+
+
+
+
+//Exemplo 3 : array de objetos
+console.log("\nExemplo3\n");
+const livros = [
+    {
+      titulo:  "O assasinato no Expresso Oriente",
+      autor: "Agatha christie"
+    
+    },
+
+    {
+        titulo: "Crepúsculo",
+        autor: "Stephanie Myers"
+    },
+
+    {
+        titulo: "um livro qualquel",
+        autor: "Fulano de tal"
+    }
+
+
+];
+
+console.log(livros);
+console.log(livros[2].titulo);
+
+
+
+
+
+
+
+
 
 
 
