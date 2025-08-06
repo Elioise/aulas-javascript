@@ -33,6 +33,27 @@ console.log(coisas[4]);
 
 
 
-let comida = ["fejoada", "chocolate", "pão com ovo", "cachoro quente", "legumes", "macarão"];
+let comida = ["fejoada", "chocolate", "pão com ovo", "cachorro quente", "legumes",  "molho de x", "macarrão"];
 
-console.log();
+console.log(` Eu gostei muito de ${comida[1]}`);
+console.log("A comida prefida do meu marido é arroz com "+comida[4]+" ");
+console.log(`O meu filho sempre pedir ${comida[6]} em casa`);
+
+
+let coisasquegosto = ["Rush", "pink Floyd", "adele", "deep", "slayer", "dem da garoa", "metallica"];
+
+console.log(coisasquegosto[1]);
+console.log(coisasquegosto[4]);
+console.log(coisasquegosto[6]);
+
+
+console.log(`Gosto muito dos artistas: ${coisasquegosto[1]}, ${coisasquegosto[4]}, ${coisasquegosto[6]}`);
+
+
+
+
+
+
+
+
+
