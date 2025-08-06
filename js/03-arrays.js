@@ -16,4 +16,23 @@ console.log(vocalistas[0]);
 console.log(`O ${vocalistas[3]} esta em turnê tocando Pink Floyd`);
 
 
+// Relembrando como criar/usararrays (vetor)
 
+let seila = 6;
+const coisas = [10, "Senac",  "<h2>oie</h2>" , seila, 15.88];
+console.log(coisas [1]);
+console.log(coisas[4]);
+
+
+
+/*Exercicios (FAÇA AQUI MESMO)*/ 
+// 1) Crie um array contendo o nome de 7 coisas que vc gosta
+//(exemplos: artista, músicas, livros, comida.... sei lá, inventa!)
+
+// Em seguida, mostre no console uma frase personalizada indicando o segundo, o quinto,  e o sétimo elemento do array. Use concatenação e/ou template string.
+
+
+
+let comida = ["fejoada", "chocolate", "pão com ovo", "cachoro quente", "legumes", "macarão"];
+
+console.log();
