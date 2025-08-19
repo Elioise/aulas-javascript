@@ -16,7 +16,7 @@ console.log(vocalistas[0]);
 console.log(`O ${vocalistas[3]} esta em turnê tocando Pink Floyd`);
 
 
-// Relembrando como criar/usararrays (vetor)
+// Relembrando como criar/usar arrays (vetor)
 
 let seila = 6;
 const coisas = [10, "Senac",  "<h2>oie</h2>" , seila, 15.88];
@@ -30,6 +30,12 @@ console.log(coisas[4]);
 //(exemplos: artista, músicas, livros, comida.... sei lá, inventa!)
 
 // Em seguida, mostre no console uma frase personalizada indicando o segundo, o quinto,  e o sétimo elemento do array. Use concatenação e/ou template string.
+
+
+
+
+
+
 
 
 
@@ -65,11 +71,34 @@ console.log(tecnologias[0][2]); // javascript
 console.log(tecnologias[1][0]); // figma
 console.log(tecnologias[2][3]); //express
 
+console.log("\n \n");
+
+console.log(tecnologias[1][0]);
+console.log(tecnologias[2][2]);
+console.log(tecnologias[0][2]);
 
 
 
 
+console.log("\n \n");    console.log("\n ");
 
+
+
+
+const animal = [
+    "peixe", "gato", "passaro", "cachorro", "vaca", "elefante", "tigre"
+];
+
+console.log(`0 ${animal[1]} come o rato; A ${animal[4]} é preta; olha O ${animal[6]}
+    `);
+
+    console.log("O "+animal[1]+" come o rato; A "+animal[4]+" é preta; olha O "+animal[6]+"");
+
+   
+    
+    
+    
+    
 
 
 
