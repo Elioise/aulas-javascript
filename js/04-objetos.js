@@ -12,12 +12,19 @@ const pessoa = {
 
 console.log(pessoa);
 
+
+
+
+
+
+
 //Acessamos as propriedades usando nomeDoObjeto.nomeDaPropriedade
 
 console.log(`O ${pessoa.nome} tem ${pessoa.idade} anos.`);
 
 //exemplo 2 : objeto com array
 console.log("\nExemplo2\n");
+
 
 const livro = {
     titulo: "O Senhos dos Anéis",
@@ -76,6 +83,10 @@ const livros = [
 
 console.log(livros);
 console.log(livros[2].titulo);
+
+
+
+
 
 
 
