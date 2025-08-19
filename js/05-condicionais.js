@@ -15,4 +15,19 @@ console.log("Se vc está vendo essa mensagem é porque a condiçao é VERDADEIRA
 
     }
 
+    console.log("\nExemplo 2");
+    let aluno = "OZZY";
+    let idade = 50;
+
+    /*Logíca : verificar se o aluno é maior ou menor idade */
+    if( idade < 18 ){
+       console.log("Voce é menor de idade!");  
+    }
+
+    else{
+        console.log("voce é maior de idade!");
+        
+    }
+   
+    
     
