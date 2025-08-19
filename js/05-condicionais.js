@@ -75,3 +75,36 @@ else{
 */
 
 
+ /* Verificando o desempenho do aluno conforme a média:
+ 
+- Média acima de 9 ? Ótimo
+- Média acima de 7 ? Bom
+- Média acima de 5 ? Ruim
+- Média até 5 ? Péssimo */
+
+if (media > 9) {
+  console.log("ÓTIMO!");
+    
+} else if (media > 7){
+    console.log("BOM!");
+    
+} else if(media > 5){
+    console.log("RUIM");
+    
+} else {
+    console.log("PÉSSIMO!");
+    
+}
+    
+
+console.log("\nExemplo 4");
+/*CONDICIONAL COMPOSTA COM OPERADOR TERNÁRIO ?: 
+ */
+
+let situacao = idade >= 18 ? "maior" :
+"menor";
+
+console.log(situacao);
+
+
+
