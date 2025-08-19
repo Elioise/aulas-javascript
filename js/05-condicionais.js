@@ -22,9 +22,7 @@ console.log("Se vc está vendo essa mensagem é porque a condiçao é VERDADEIRA
     /*Logíca : verificar se o aluno é maior ou menor idade */
     if( idade < 18 ){
        console.log("Voce é menor de idade!");  
-    }
-
-    else{
+    }    else{
         console.log("voce é maior de idade!");
         
     }
