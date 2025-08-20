@@ -28,3 +28,33 @@ for( let k = 10; k >= 1; k-- ){
     console.log("K vale "+k);    
 }
 
+
+console.log("\nExemplo 4: loop e array");
+
+const bandas = [
+    "Slayr", "Metallica", "Iron Maiden", "Nightwish", "Judas Priest"
+];
+
+for(let i = 0; i < bandas.length; i++ ){
+    console.log( bandas [i] );
+        
+}
+
+console.log("\n------\n");
+
+// Usando loop for/of (exclusivo do JS)
+for (const banda of bandas) {
+    console.log(banda);
+    
+    
+}
+
+console.log("\nExemplos 5: loop e objeto");
+const pessoa = {
+    nome: "Fulano da Silva",
+    idade: 40,
+    cidade: "saõ paulo",
+    estado: "SP"
+};
+
+
