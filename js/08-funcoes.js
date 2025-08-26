@@ -49,7 +49,31 @@ exemplo3();
 //Geralmente, ao terminar o processamento dos dados. a funçõe "retorna" para fora um resultado.
 
 
+function saudacao( nome = "visitante" ) {
+    console.log("ola!," +nome);
+    
+}
 
+saudacao("Elioise");
+saudacao("Lu");
+saudacao("Angel");
+saudacao();// nesse caso, é usado "visitante" como valor.
+
+console.log("\nExemplo 5: função com parametros e retorno");
+
+//Sempre que tivermos a necessidade de trabalhar com o resultado do processamento de uma função, então essa função deve ter o return.
+
+function multiplicar(valor1, valor2) {
+   return valor1 * valor2
+}
+
+//chamando a função e recebemos o retorno/resultado dela
+let resultado1 = multiplicar(10, 5);
+let resultado2 = multiplicar(200, 10);
+
+// exibimos o resultado
+console.log("resultado 1 : " +resultado1);
+console.log("resultado 1 :" +resultado2);
 
 
 
