@@ -16,8 +16,9 @@ if (numero >= 10) {
 }
 
 console.log("\nExemplo 2");
-let aluno = "OZZY";
+let aluno = "ozzy";
 let idade = 50;
+
 
 /*Logíca : verificar se o aluno é maior ou menor idade */
 
@@ -43,6 +44,9 @@ DICA: você deve SOMAR as duas notas e DEPOIS dividir por 2.
  
 3. Programe uma condicional que verifique o valor da média calculada. Se a média for maior/igual a 7, mostre "aprovado". 
 Caso contrário, mostre "reprovado".*/
+
+
+
 
 
 
@@ -82,6 +86,8 @@ else{
 - Média acima de 5 ? Ruim
 - Média até 5 ? Péssimo */
 
+
+
 if (media > 9) {
   console.log("ÓTIMO!");
     
@@ -105,6 +111,12 @@ let situacao = idade >= 18 ? "maior" :
 "menor";
 
 console.log(situacao);
+
+
+    
+
+
+
 
 
 

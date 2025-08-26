@@ -23,6 +23,11 @@ if(idade >= 18 && temcarta  === true){
 }
 
 
+
+
+    
+
+
 /*Sobre duplo e triplo sinal de igual
 
 Ao usar == a comparacao é somente do valor, ou seja, não importa o tipo de dados (string, nunmber, etc)
@@ -37,6 +42,7 @@ let resultadocomparacao = a ===b; //false
 let resultadoComparacao = a == b;
 console.log(resultadoComparacao);
 
+ 
 
 console.log("\nExemplo ||");
 // || -> retorna VERDADEIRO se pelo menos uma das condições for verdadeira

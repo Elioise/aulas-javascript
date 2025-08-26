@@ -105,9 +105,11 @@ console.log(livros[2].titulo);
 2. Mostre no console o nome do aluno, o telefone celular e o bairro em que mora. */
 
 
+ 
 
 
-const aluno ={
+
+const aluno = {
     nomecompleto: "Elo",
     dataDeNascimento: "26 de novembro",
     lista_de_telefones: [
