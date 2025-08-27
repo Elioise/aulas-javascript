@@ -2,20 +2,76 @@
 
 /*Exemplo 01 */
 //procurando (querySeletor) por um elemento chamado exemplo1
-const exemplo1 =document.querySelector //só para id
+const exemplo1 =document.querySelector 
 ("#exemplo1");
-const mensagem01 =document.querySelector("#mensagem01");
+const mensagem01 =document.
+querySelector
+  
+("#mensagem01");
 const pagina = document.querySelector("body");
 
+/*getElementById  só para id*/
 
-console.log(exemplo1);
-console.log(mensagem01);
-console.log(pagina);
+
 
 /*
 Para selecionar vários elementos, use querySelectorAll. O resultado é uma esp´[ecie de array de elementos (NodeList).
 */
 const paragrafos = document.querySelectorAll("p")
 console.log(paragrafos);
+
+
+
+
+/*Sobre eventos
+um evento é um acontecimento ou fenômeno que, quando acontece, dispara ações em nosso programa/site/aplicação.
+
+O JavaScript suporta centenas de tipos de evento. Exemplos: clique do mouse, pressionar teclas, tocar na tela, rolagem da página, carregamento da página e etc.*/
+
+//Exemplo detectando eventos
+
+exemplo1.addEventListener("click", function() {
+   mensagem01.textContent = "opa, evento funcionou!"
+   mensagem01.classList.add("destaque");
+    
+});
+
+
+mensagem01.addEventListener("dblclick", function() {
+    mensagem01.textContent ="";
+   //remove a classe destaque
+    mensagem01.classList.remove("destaque");
+});
+
+
+
+
+/*Geral
+ Exercícios
+ 
+1) Crie uma constante nova e selecione o h1 da sua página
+2) Crie um evento em que, ao passar o mouse em cima do h1, o texto mude para "Praticando Eventos!" e também fique centralizado.
+3) Faça também um evento de clique para que, quando clicar na palavra "Referências", o texto do h1 volte para a palavra "Eventos" e o alinhamento volte a ficar à esquerda (padrão).*/ 
+
+const doEvento = document.querySelector("h1")
+
+doEvento.addEventListener("mouseover", function(){
+   doEvento.textContent ="Praticando Eventos!" ;
+doEvento.classList.add("pratico");
+  
+});
+
+const evento2 = document.querySelector("#ref");
+
+evento2.addEventListener("click", function() {
+ doEvento.textContent="Eventos"  ; doEvento.classList.remove("pratico");
+})
+
+//const evento2 = document.querySelector("h2:last-of-type");
+
+
+
+
+
 
 
